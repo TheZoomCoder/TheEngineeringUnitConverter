@@ -37,7 +37,6 @@ body {
     display: inline-block;
     vertical-align: middle;
     width: 100%;
-   /* transform: translate(0,250%)*/
   }
   
   .converter-wrapper span select {
@@ -51,7 +50,7 @@ body {
     border-radius: 0px;
     text-indent: 0.01px;
     text-overflow: '';
-    -webkit-appearance: none; /* hide default arrow in chrome OSX */
+    -webkit-appearance: none;
   }
   
   .converter-wrapper span::before,
@@ -61,7 +60,7 @@ body {
     pointer-events: none;
   }
   
-  .converter-wrapper span::after { /*  Custom dropdown arrow */
+  .converter-wrapper span::after {
     content: "\25BC";
     height: 1em;
     font-size: .625em;
@@ -72,7 +71,7 @@ body {
     color: #131B24;
   }
   
-  .converter-wrapper span::before { /*  Custom dropdown arrow cover */
+  .converter-wrapper span::before { 
     width: 2.5em;
     right: 0;
     top: 0;
@@ -97,16 +96,13 @@ body {
     font-size: 3.3em;
     line-height: 0;
     text-align: center;
-    /*transform: translate(0,100%);*/
     color: yellow;
   }
   
   .converter-side-a {
     padding-right: 10px;
-    /*transform: translate(0,90%);*/
   }
   
   .converter-side-b {
     padding-left: 10px;
-    /*transform: translate(0,90%);*/
   }
