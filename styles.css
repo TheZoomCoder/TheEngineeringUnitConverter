@@ -2,13 +2,14 @@ body {
     padding-top: 20px;
     background-color: #202020;
     background: url('http://www.allwhitebackground.com/images/6/Tech-Engineering-Background-Images.jpg');
-    background-size: 800px;
+    background-size: 1150px;
+    
   }
   h1 {
     color: yellow;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 45px;
     transform: translate(0%,2%);
   }
   
@@ -93,7 +94,7 @@ body {
     box-sizing: border-box;
     width: 10%;
     color: #FFF;
-    font-size: 3.3em;
+    font-size: 3.5em;
     line-height: 0;
     text-align: center;
     color: yellow;
